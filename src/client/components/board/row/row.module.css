@@ -1,0 +1,7 @@
+.Row {
+  height: 12.5%; /*Rows are going to be 1/8 of the total board*/
+  width: 100%;
+  /* border: 3px solid green; */
+  display: flex;
+  flex-direction: row;
+}

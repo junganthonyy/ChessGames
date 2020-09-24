@@ -1,0 +1,19 @@
+.Square {
+  background-color: black;
+  color: grey;
+  width: 12.5%; /* Each row is going to be 1/8th of a row */
+  height: 100%;
+}
+
+.Black {
+  background-color: black;
+}
+
+.White{
+  background-color: white;
+}
+
+.Highlighted {
+  background-color: limegreen;
+  border: 1px solid black;
+}
