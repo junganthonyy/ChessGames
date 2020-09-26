@@ -15,7 +15,7 @@ function Row(props) {
           key={`Row-${props.rowNumber}-Column-${i}`}
           piece={piece}
         > 
-          <div>K</div>
+          <div></div>
         </Square>
         ))
       }
