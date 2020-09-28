@@ -1,8 +1,8 @@
 import Piece from '../Piece';
 
-export default class Bishop extends Piece {
+export default class Knight extends Piece {
   constructor(player){
-    super(player, (player === 1? "WKBishop.svg" : "BBishop.svg"));
+    super(player, (player === 1? "WKnight.svg" : "BKnight.svg"));
   }
 
   isMovePossible(src, dest) {

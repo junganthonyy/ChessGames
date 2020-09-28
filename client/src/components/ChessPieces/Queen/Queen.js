@@ -9,10 +9,8 @@ export default class Queen extends Piece {
     // now here we check if the move is possible
     // src will have a row & column
     // destination will also have a row & column
-    // kings can move number of spaces in 8 directions
-    
-    // destination row/column must be within -1 & + 1
-    
+    // queens can move number of spaces in 8 directions
+
     // vertical movement would mean that it stays in the same column
     // horizontal movement would mean it stays in the same row
 
