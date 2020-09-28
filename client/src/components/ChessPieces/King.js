@@ -13,8 +13,8 @@ export default class King extends Piece {
     
     // destination row/column must be within -1 & + 1
 
-    return ((dest.row <= src.row + 1 && dest.row >= src.row - 1) &&
-            (dest.col <= src.col + 1 && dest.col <= src.col - 1)
+    return ((dest.row <= (src.row + 1) && dest.row >= (src.row - 1)) &&
+            (dest.col <= (src.col + 1) && dest.col >= (src.col - 1))
     )
   }
 
